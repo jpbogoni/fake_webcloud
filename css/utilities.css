@@ -14,7 +14,7 @@
 
 .flex {
     display: flex;
-    justify-content: ceter;
+    justify-content: center;
     align-items: center;
     height: 100%;
 }
@@ -83,6 +83,15 @@
 .btn-light {
     background-color: #f4f4f4;
     color: #333;
+}
+
+.bg-primary a, 
+.btn-primary a,
+.bg-secondary a, 
+.btn-secondary a,
+.bg-dark a, 
+.btn-dark a {
+    color: #fff;
 }
 
 .lead {
